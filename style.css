@@ -1,0 +1,44 @@
+*{
+
+    box-sizing: border-box;
+
+}
+
+
+.header {
+    background-color: aliceblue;
+    color: #488532;
+    border-bottom:2px solid slateblue;
+}
+.container {
+  max-width: 1000pxx;  
+  margin: 0;
+}
+.header  .container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+
+.logo {
+    max-width: 150px;
+}
+.header__content {
+}
+.greeting {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center
+}
+.greeting-image {
+    max-width: 250px;
+}
+.greeting-text h2 {
+font-size: 30px;
+color: #a8204b;
+font-family: "Big Shoulders", sans-serif;
+}
+.wishes {
+}
